@@ -7,10 +7,7 @@
 #     passed = filter_by_min_score(records, min_score=10)
 #     print(f"Admis (score >= 10): {len(passed)}")
 
-#     print(f"Resume: {summarize(records)}")
-
-# Code after refactoring:
-
+#     print(f"Resume: {summarize(records)}")# Code after refactoring:
 from src.dataset import CsvDataset
 
 if __name__ == "__main__":
